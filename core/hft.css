@@ -1,4 +1,28 @@
 
 h2{
-    color:teal;  
+    color:teal; 
+    font-size:3em;
+    margin-bottom:0.3em;
+    padding-top:0;
+}
+
+p{
+    font-size:2em;   
+}
+
+
+p,code{
+    margin: 1em 0 0.2em 0;   
+}
+
+/* the first element after the h2 */
+p:nth-child(2), code:nth-child(2){
+    margin-top: 0; 
+}
+
+.table1{
+    width:100%;
+}
+.table1 td{
+       
 }
