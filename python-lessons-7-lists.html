@@ -26,6 +26,10 @@
   <!-- Basic black and white print styles -->
   <link rel="stylesheet" media="print" href="core/print.css">
 
+    
+  <!-- My css -->
+  <link rel="stylesheet" media="screen" href="core/hft.css">
+    
   <!-- Required Modernizr file -->
   <script src="modernizr.custom.js"></script>
 </head>
@@ -35,7 +39,7 @@
     <!-- Begin slides. Just make elements with a class of slide. -->
 
     <section class="slide">
-      <h1>Lists in python</h1>
+      <h2>Lists in python</h2>
       <h3>You will need a pen and paper</h3>
     </section>
 
@@ -61,7 +65,7 @@
     </section>
       
     <section class="slide">
-      <h1>Accessing List Elements (Advanced)</h1>
+      <h2>Accessing List Elements (Advanced)</h2>
         <p><strong>Q)</strong> What would the following statement print?</p>
         <script src="https://gist.github.com/harfordt/cfc20c9717685a70853c.js"></script>
         <p><strong>A)</strong> 87, 123, 8398, 44</p>
@@ -110,6 +114,7 @@
   $(function() {
     $.deck('.slide');
   });
+  $("td").css("font-size", "3em");
 </script>
 </body>
 </html>
