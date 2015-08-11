@@ -5,13 +5,12 @@ body{
 
 
 
-
-.panel-body{
-    padding:0;   
-}
-
-.list-group-item{
+/* These styles are for the lists of links within each panel */
+.panel-body{ padding:0; }
+.list-group{ margin-bottom:0; }
+.list-group-item
+{
     border-left: 0;
     border-right: 0;
 }
-
+.list-group-item:first-child{border-radius:0; }
