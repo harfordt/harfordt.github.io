@@ -7,10 +7,12 @@ h2{
 }
 
 p{
-    font-size:2em;   
+    font-size:2em;  
 }
 
-
+p,li{
+    color:#222;   
+}
 p,code{
     margin: 1em 0 0.2em 0;   
 }
@@ -23,6 +25,24 @@ p:nth-child(2), code:nth-child(2){
 .table1{
     width:100%;
 }
-.table1 td{
-       
+.img-maximum{
+    width:100%;
+    max-width:100%;   
 }
+
+
+.half{
+        margin:0;
+        padding:0;
+        width:48%;
+        float:left;
+}
+
+@media (max-width: 800px) {
+    .half{
+        width:100%;
+    }
+}
+
+
+
