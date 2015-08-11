@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=1024, user-scalable=no">
 
-  <title>Your deck.js Presentation</title>
+  <title>Lists in Python</title>
 
   <!-- Required stylesheet -->
   <link rel="stylesheet" media="screen" href="core/deck.core.css">
@@ -164,7 +164,7 @@ False</pre>
     
     <section class="slide">
       <h2>List methods</h2>
-        <img src="img/python-lessons-7-lists-1.jpg" style="max-width:100%;">
+        <img src="img/python-lessons-7-lists-1.jpg" class="img-maximum">
         <p><strong>Yuck.</strong> You don’t need to remember this, just know what mutator and return methods are.</p>
     </section>
       
@@ -174,7 +174,7 @@ False</pre>
         <p><strong>Q)</strong>What would the following statement print?</p> 
 <pre class="prettyprint linenums">list = [4, 2, 3]
 list.append(True)
-list.append(“banana”)
+list.append("banana")
 list.append(2.8)
 print(list)</pre>
 <span class="slide"><p><strong>A)</strong></p> 
@@ -238,7 +238,6 @@ print(numbers)
 for i in range(len(numbers)):
     numbers[i] = numbers[i]**2
 print(numbers)</pre>
-
             <span class="slide"><p><strong>A)</strong></p>  
             <pre class="prettyprint">[1, 2, 3, 4, 5]
 [1, 4, 9, 16, 25]</pre>
@@ -246,20 +245,124 @@ print(numbers)</pre>
     </section>
       
     
+    
     <section class="slide">
-      <h2></h2>
+      <h2>Loops</h2>
+        <pre class="prettyprint linenums">names = ['Marama','Cheyenne','Dyani']
+for name in names:
+	print(name)
+
+students=[['Marama',21],['Cheyenne',20],['Dyani',19]]
+for student in students:
+	name=students[0]
+	age=students[1]
+	print("{} is {}".format(name,age)</pre>
     </section>
       
     
+    
     <section class="slide">
-      <h2></h2>
+      <h2>Loops</h2>
+        <pre class="prettyprint linenums">names = ['Marama','Cheyenne','Dyani']
+for name in names:
+	print(name)</pre>
+        <div style="width: 80%; height: 480px; margin: 10px; margin-left:auto; margin-right:auto;"><iframe allowfullscreen frameborder="0" style="width:100%; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/7de20df7-7b1a-4442-beba-ebe6f7846f89" id="_bl4bdNni1m8"></iframe></div>
     </section>
       
     
+    
     <section class="slide">
-      <h2></h2>
+      <h2>Loops - 2D lists</h2>
+        <pre class="prettyprint linenums">students=[['Marama',21],['Cheyenne',20],['Dyani',19]]
+for student in students:
+	name=students[0]
+	age=students[1]
+	print("{} is {}".format(name,age))</pre>
+        <div style="width: 80%; height: 480px; margin: 10px; margin-left:auto; margin-right:auto;"><iframe allowfullscreen frameborder="0" style="width:100%; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/b40079e1-380f-4ca1-8db6-f53b7b7147bb" id="Ucl4lEmUkE8h"></iframe></div>
+    </section>
+    
+    
+    <section class="slide">
+        <h2>Loops - 2D lists</h2>
+        <pre class="prettyprint linenums">elements = [["H","Hydrogen"],["He","Helium"],["Li","Lithium"],["Be","Beryllium"],["B","Boron"],["C","Carbon"],["N","Nitrogen"],["O","Oxygen"],["F","Fluorine"],["Ne","Neon"],["Na","Sodium"],["Mg","Magnesium"],["Al","Aluminum"],["Si","Silicon"],["P","Phosphorus"],["S","Sulphur"],["Cl","Chlorine"],["Ar","Argon"]]
+elements.append(["K","Potassium"])
+elements.append(["Ca","Calcium"])
+
+# either...
+for element in elements:
+    symbol = element[0]
+    name = element[1]
+    print("The symbol for {0} is {1}".format(name,symbol))
+
+# or...    
+for element in elements:
+    print("The symbol for {0} is {1}".format(element[1],element[0]))</pre>
     </section>
       
+    <section class="slide">
+        <h2>Pizza menu</h2>
+        <div class="half">
+            <pre class="prettyprint">orders=[["Tim","Mr Wedge",3]]</pre>
+            <ol>
+                <li>Copy the line above</li>
+                <li>Add (append) to the order:</li>
+                <li style="list-style-type:none">
+                    <ul>
+                        <li>3 Apricot Chicken pizzas for Courtenay</li>
+                        <li>2 Godfather pizzas for Tracy</li>
+                    </ul>
+                </li>
+                <li>Use a for loop to print out the order in nice sentences (‘Tim ordered 3 Mr Wedge flavoured pizzas’)</li>
+            </ol>
+        </div>
+        <div class="half" style="height: 720px; margin: 10px;"><iframe allowfullscreen frameborder="0" style="width:100%; height:720px" src="https://www.lucidchart.com/documents/embeddedchart/73a5275a-5356-40b3-9ac2-c776f5b99983" id="kOk4sdJH2-Hs"></iframe></div>
+    </section>
+    
+    
+    <section class="slide">
+        <h2>Pizza menu</h2>
+        <div class="half">
+            <p>Extend the program so that the user is offered the option to:</p>
+            <ol>
+                <li>order a pizza (same questions as the previous slide)</li>
+                <li>print a list of the orders</li>
+                <li>quit</li>
+            </ol>
+        </div>
+        <div style="height: 720px; margin: 10px;" class="half"><iframe allowfullscreen frameborder="0" style="width:100%; height:720px" src="https://www.lucidchart.com/documents/embeddedchart/c6d797bc-4de9-4410-9c85-7d4573c4b90e" id="qFk4X.2RlSQG"></iframe></div>
+    </section>
+    
+    
+    <section class="slide">
+        <h2>Exercise 1</h2>
+        <p>Create a list of numbers, for example:</p>
+        <p><code>list = [45, 34, 56, 65]</code></p>
+<p>Then write the code to print out the largest number.</p>
+
+<p>Do not use the <code>.max()</code> function, write your own code to do this.</p>
+    </section>
+    
+    
+    <section class="slide">
+        <h2>Exercise 2</h2>
+        <p>Create a list of first names of students in your row.</p>
+        <p>Write code to ask the user to search for a name. If it finds the name then it prints out the name, otherwise it continues to ask the user for a name.</p>
+    </section>
+    
+    
+    <section class="slide">
+        <h2>Exercise 3</h2>
+        <p>Using the list of first names of students.</p>
+        <p>Write code to ask the user for a name to add a student to the list. Ask the user this 3 times.</p>
+        <p>Then print out all the names, one on each line.</p>
+    </section>
+    
+    
+    <section class="slide">
+        <h2>Exercise 4</h2>
+        <p>Create a program that creates the fibonacci sequence in a list. Then prints out the 100th fibonacci number.</p>
+    </section>
+    
     
     <!-- End slides. -->
 
