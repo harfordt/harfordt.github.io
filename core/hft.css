@@ -44,5 +44,7 @@ p:nth-child(2), code:nth-child(2){
     }
 }
 
-
+.panel-body{
+    padding:0;   
+}
 
