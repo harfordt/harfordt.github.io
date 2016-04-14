@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="plugins/simplemodal/basic.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- ### REQUIRED FOR REMODAL TO DO COOL STUFF TO THE BG ###-->
+  <div class="remodal-bg">
+    <!-- ### REQUIRED FOR REMODAL TO DO COOL STUFF TO THE BG ###-->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">L3 Web Demos</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="inject-nav-html" class="nav navbar-nav">
+            <!-- js/load-nav-data.js will inject navigation here -->
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Simple modal <a href="http://www.ericmmartin.com/projects/simplemodal/" target="_blank"><i class="fa fa-external-link h1-icon"></i></a></h1>
+        <p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework. SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development.</p>
+
+      </div>
+
+    </div>
+    <!-- /container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Example</h2>
+
+          <input type='button' name='basic' value='Demo' class='basic' /> or <a href='#' class='basic'>Demo</a>
+
+          <!-- modal content -->
+          <div id="basic-modal-content">
+            <h3>Basic Modal Dialog</h3>
+            <p>For this demo, SimpleModal is using this "hidden" data for its content. You can also populate the modal dialog with an AJAX response, standard HTML or DOM element(s).</p>
+            <p>Examples:</p>
+            <p>Some interesting stuff</p>
+            <p><img src="img/resized/0007.jpg" style="width:30%;" alt="and a picture" /></p>
+
+            <p><a href='http://www.ericmmartin.com/projects/simplemodal/'>More details...</a></p>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/load-nav-data.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/simplemodal/jquery.simplemodal.js"></script>
+    <script src="plugins/simplemodal/basic.js"></script>
+    <script>
+      $('.basic').click(function () {
+        $("#basic-modal-content").modal();
+      });
+    </script>
+  </div>
+</body>
+
+</html>
