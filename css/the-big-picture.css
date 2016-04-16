@@ -5,21 +5,37 @@
  */
 
 body {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	background: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: none;
 }
 
 .full {
   background: rgb(26, 188, 156);
-  
 }
 
-.my-panel{
+.my-panel {
   background: rgb(236, 240, 241);
   box-sizing: border-box;
-    padding:6px;
+  padding: 6px;
+  /*  height:300px;*/
+  /*
+  overflow: auto;
+  display:table-cell;
+  height:100%;
+*/
 }
-.fullwidth{
- width:100%; 
+
+.fullwidth {
+  width: 100%;
+}
+
+.fill-height-or-more {
+  display: flex;
+  /*   flex-direction: column;*/
+}
+
+.fill-height-or-more > div {
+  /* these are the flex items */
+  flex: 1;
 }
