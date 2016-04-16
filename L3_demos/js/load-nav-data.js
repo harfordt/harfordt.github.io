@@ -21,9 +21,10 @@ var $navhtml = '<li><a href="index.html">Home</a></li>\
               <li><a href="colorbox.html">Colorbox</a></li>\
               <li><a href="pikachoose.html">Pikachoose</a></li>\
               <li><a href="#" class="disabled"><strong>Combinations</strong></a></li>\
-              <li><a href="jg-with-cb.html"><strong>Justified-gallery with colorbox</strong></a></li>\
+              <li><a href="jg-with-cb.html">Justified-gallery with colorbox</a></li>\
             </ul>\
-          </li>';
+          </li>\
+          <li><a href="effects.html">Effects</a></li>';
 
 
 $('#inject-nav-html').append($navhtml);
