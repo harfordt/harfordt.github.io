@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+body {
+    margin-top: 50px;
+    font-family: Century Gothic, sans-serif;
+}
+.jumbotron {
+    /*background-image: url("../Images/11edit.jpg");*/
+    background-size: cover;
+    color: white;
+}
+.navbar-inverse {
+    background-color: #2E6DA4;
+    color: #2E6DA4;
+}
+
+/*.testcolumn{
+    min-height: 400px;
+    background-color: beige;
+
+    } */
+
+.fillwidth {
+    width: 100%;
+}
+.btn {
+    border-radius: 1px;
+    margin-top: 15px
+}
+.imagespace {
+    margin: 15px;
+}
+.imagespacetop {
+    margin: 0px 15px 15px 15px;
+}
+.item img {
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    min-height: 100px;
+    vertical-align: middle;
+}
+#myForm {
+    /*    display: none;*/
+}
+.btn {
+    background-color: rgba(116, 159, 205, 0.3);
+}
+.containter,
+p,
+h3,
+h1 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Featurettes
+    ------------------------- */
+
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+    padding-top: 120px;
+    /* Vertically center images part 1: add padding above and below text. */
+    overflow: hidden;
+    /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+    margin-top: -120px;
+    /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+.featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
+}
+.featurette-heading {
+    font-size: 30px;
+}
+.featurette {
+    height: auto;
+    padding: 0;
+}
+.featurette-image.pull-left,
+.featurette-image.pull-right {
+    display: block;
+    float: none;
+    max-width: 40%;
+    margin: 0 auto 20px;
+}

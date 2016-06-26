@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Takeaway</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/weekend.css" rel="stylesheet">
+
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Fang's</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="eastern.html">Eastern</a></li>
+                    <li><a href="western.html">Western</a></li>
+                    <li class="active"><a href="">Reviews</a></li>
+                </ul>
+                <!--
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a role="button" id="wk-button">change bg</a></li>
+                    <li><a class="btn btn-default" id="Use dark">Use dark </a></li>
+                </ul>
+-->
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1></h1>
+            <p class="lead"></p>
+        </div>
+    </div>
+
+    <div class="container cv-section" id="about">
+        <h1>Contact</h1>
+
+        <div class="col-lg-5">
+            <p> If you have any questions, Please contact me or email me.</p>
+        </div>
+
+        <div class="col-lg-7">
+            <table class="table">
+                <tr>
+                    <td><i class="fa fa-female"> Full name</td>
+                <td>Alice Fang</td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-apple"> Moblie number</td>
+                <td>022 136 7328</td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-phone"> Home phone</td>
+                <td>(04) 476 8678</td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-skype"> Skype</td>
+                <td>lotus</td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-facebook"> Facebook</td>
+                <td>Alice Fang</td>
+            </tr>
+            </i>
+            </table>
+        </div>
+    </div>
+
+    <form class="form-horizontal" method="post" action="sendmail.php">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Contact</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Name">Full name</label>
+                <div class="col-md-4">
+                    <input id="fullname" name="fullname" type="text" placeholder="placeholder" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="email">Email</label>
+                <div class="col-md-4">
+                    <input id="email" name="email" type="text" placeholder="placeholder" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="number">Phone Number</label>
+                <div class="col-md-4">
+                    <input id="number" name="number" type="text" placeholder="placeholder" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="order">Order</label>
+                <div class="col-md-4">
+                    <textarea class="form-control" id="order" name="order">Your order</textarea>
+                </div>
+            </div>
+
+            <!-- Button (Double) -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit">Submit</label>
+                <div class="col-md-8">
+                    <button id="submit" name="submit" class="btn btn-success" value="submit">Submit</button>
+                    <button id="clear" name="clear" class="btn btn-danger">Clear</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</body>

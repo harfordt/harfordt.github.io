@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+body {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+    /*background-image: url("../Images/11edit.jpg");*/
+    background-size: cover;
+    color: gray;
+}
+
+.navbar-inverse {
+    background-color: rgba(116, 159, 205, 0.4);
+    color: white;
+    border-color: gray;
+}
+
+
+/*.testcolumn{
+    min-height: 400px;
+    background-color: beige;
+    } */
+
+.fillwidth {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 1px;
+    margin-top: 15px
+}
+
+.imagespace {
+    margin: 15px;
+}
+
+.imagespacetop {
+    margin: 0px 15px 15px 15px;
+}
+
+.item img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    /*    min-height: 100px;*/
+    vertical-align: middle;
+}
+
+#myForm {
+    /*    display: none;*/
+}
+
+.btn {
+    background-color: rgba(116, 159, 205, 0.4);
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.containter,
+p,
+h3,
+h1 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.formgroup {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+#myCarousel2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.row {
+    margin-top: 25px;
+}
+
+.learnmore {
+    background-image: url(../Images/9.jpg);
+    color: white;
+}
+
+.col-md-8 {
+    text-decoration: none;
+}
