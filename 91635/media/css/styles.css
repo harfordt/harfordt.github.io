@@ -1,0 +1,111 @@
+/* carousel styles */
+
+.carousel,
+.carousel-control {
+    margin-top: 75px;
+    max-height: 50vh;
+}
+
+.carousel-image {
+    max-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+
+
+/* all pages stlyes*/
+
+body {
+    background-color: #87878C;
+    margin-top: 60px;
+}
+
+.navbar {
+    background-color: #262626;
+    border: none;
+}
+
+.jumbotron {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-image: url(../images/fresh_snow.png);
+}
+
+.jumbotron > h1 {
+    margin-top: 0px;
+}
+
+.jumbotron > p {
+    color: #87878C;
+}
+
+footer,
+p {
+    color: white;
+}
+
+
+/* index.html stlyes */
+
+.img-blurb {
+    max-height: 15vh;
+    float: right;
+}
+
+.btn-blurb {
+    color: #000000;
+}
+
+
+/* paintings.html styles */
+
+
+/* digital.html styles */
+
+
+/* portfolios.html styles */
+
+.img-portfolio {
+    width: 100%;
+    height: auto;
+}
+
+.btn-portfolio {
+    margin-top: 10px;
+}
+
+.toggle-btn {
+    float: right;
+    margin-bottom: 10px;
+}
+
+
+/*films.html styles */
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+/* about.html styles */
+
+.about-img {
+    float: right;
+    max-height: 30vh;
+}
+
+
+/* contact.html styles */
+
+legend,
+.control-label {
+    color: #FFFFFF;
+}
