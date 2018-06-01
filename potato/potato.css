@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    /*        border: 1px solid pink;*/
+    /*    background-color: pink;*/
+}
+
+.container-nav {
+    background-color: #f9f9f9;
+    padding-top: 1rem;
+    margin-bottom: 0.3rem;
+    min-height: 4rem;
+}
+
+.navigation {
+    font-size: 2rem;
+    text-decoration: none;
+    /*    border: 1px solid #111;*/
+    /*    padding: 0.2rem;*/
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+    color: #090909;
+}
+
+.navigation.active {
+    /*    background-color: pink;*/
+    border-bottom: 3px solid hotpink;
+}
+
+header {
+    /*    border: 1px solid blue;*/
+    text-align: center;
+    background-image: url(images/backgrounds/stripes-light.png);
+    height: 12rem;
+    padding: 2.7rem;
+    font-size: 2rem;
+}
+
+.header-menu {
+    background-image: url(images/backgrounds/graphy.png)
+}
+
+.header-about {
+    background-image: url(images/backgrounds/struckaxiom.png)
+}
+
+.header-contact {
+    background-image: url(images/backgrounds/what-the-hex.png)
+}
+
+.container {
+    /*    border: 1px solid red;*/
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    /*    border: 1px solid green;*/
+}
+
+
+.col-large {
+    /*    border: 1px solid purple;*/
+    width: 70%;
+    float: left;
+    min-height: 50vh;
+}
+
+.col-small {
+    /*    border: 1px solid yellow;*/
+    width: 30%;
+    float: left;
+    min-height: 50vh;
+}

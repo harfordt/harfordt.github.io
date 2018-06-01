@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cafe Potato</title>
+    <link href="potato.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <div class="container container-nav">
+            <a class="navigation active" href="index.html">Home</a>
+            <a class="navigation" href="menu.html">Menu</a>
+            <a class="navigation" href="about.html">About</a>
+            <a class="navigation" href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Cafe Potato</h1>
+
+        </header>
+        <main>
+            <div class="col-large">
+
+            </div>
+            <div class="col-small">
+                <div class="potato-photoset" data-layout="12">
+                    <img src="images/carousel/coffee1.jpg">
+                    <img src="images/carousel/coffee2.jpg">
+                    <img src="images/carousel/coffee3.jpg">
+                    <img src="images/carousel/coffee4.jpg">
+                    <img src="images/carousel/coffee5.jpg">
+                    <img src="images/carousel/coffee6.jpg">
+                    <img src="images/carousel/coffee7.jpg">
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="photoset.js"></script>
+    
+    <script>
+        $('.potato-photoset').photosetGrid({
+            // Set the gutter between columns and rows
+            gutter: '5px',
+            // Manually set the grid layout
+            layout: '2222',
+            // Wrap the images in links
+            highresLinks: true,
+            // Asign a common rel attribute
+            rel: 'print-gallery',
+
+            onInit: function() {},
+            onComplete: function() {
+                // Show the grid after it renders
+                $('.photoset-grid-custom').attr('style', '');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
