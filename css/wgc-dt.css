@@ -1,1 +1,7 @@
-body{margin-top:4rem;}
+body {
+    margin-top: 4rem;
+}
+
+.navbar-light {
+    background-color: rgba(0, 128, 128, 0.2);
+}
