@@ -1,4 +1,8 @@
+* {
+border-radius: 0 !important;
+}
 body {
+
     margin-top: 3.5rem;
 }
 
