@@ -10,10 +10,7 @@
 
     <title>WGCDT | Home page</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/wgc-dt.css" rel="stylesheet">
 </head>
 
@@ -21,30 +18,36 @@
 
 <nav class="navbar navbar-light navbar-expand-md fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="index.html">WGCDT</a>
+        <a class="navbar-brand" href="http://harfordt.github.io/">WGCDT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="http://harfordt.github.io/">DT Resources</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://dtweb/websites2018/" target="_blank">DTWeb</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://dtweb/phpmyadmin/" target="_blank">PHPMyAdmin</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://mail.google.com/mail/" target="_blank">GMail</a>
+            <!-- no left nav items on home page ? -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dtweb-dropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">dtweb</a>
+                    <div class="dropdown-menu" aria-labelledby="dtweb-dropdown">
+                        <a class="dropdown-item" href="http://dtweb/websites2018/" target="_blank">DTWeb</a>
+                        <a class="dropdown-item" href="http://dtweb/phpmyadmin/" target="_blank">PHPMyAdmin</a>
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">DT on WGC4me</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="nav-link dropdown-toggle" href="#" id="google-dropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">GApps</a>
+                    <div class="dropdown-menu" aria-labelledby="google-dropdown">
+                        <a class="dropdown-item" href="https://mail.google.com/mail/" target="_blank">GMail</a>
+                        <a class="dropdown-item" href="https://drive.google.com/drive/" target="_blank">Drive</a>
+                        <a class="dropdown-item" href="https://classroom.google.com/" target="_blank">Classroom</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="wgc4me-dropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">WGC4me</a>
+                    <div class="dropdown-menu" aria-labelledby="wgc4me-dropdown">
                         <a class="dropdown-item" href="http://wgc4me.wgc.school.nz" target="_blank">WGC4Me Home</a>
                         <a class="dropdown-item" href="http://wgc4me.wgc.school.nz/course/view.php?id=127"
                            target="_blank">9DT</a>
@@ -59,6 +62,7 @@
                            target="_blank">13DDT</a>
                     </div>
                 </li>
+
             </ul>
         </div>
     </div>
