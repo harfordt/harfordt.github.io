@@ -1,19 +1,19 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/gtag.js"></script>
+    <script src="../js/gtag.js"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-          content="Repository of resources for Digital Technologies for use at Wellington Girls' College">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="An index for all hosted DT files">
     <meta name="author" content="Tim Harford">
-    <link rel="icon" href="images/wgclogo.png">
+    <link rel="icon" href="../images/wgclogo.png">
 
-    <title>WGCDT | Home page</title>
+    <title>WGCDT | PHP and MySQL</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/wgc-dt.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/wgc-dt.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +27,21 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <!-- no left nav items on home page ? -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="python-dropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">PHP</a>
+                    <div class="dropdown-menu" aria-labelledby="python-dropdown">
+                        <a class="dropdown-item" href="index.html">PHP home</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="db.html">Database basics</a>
+                        <a class="dropdown-item" href="select.html">SELECT - getting data from your database</a>
+                        <a class="dropdown-item" href="security.html">Registering and logging in</a>
+                        <a class="dropdown-item" href="loggedin.html">Logged in users</a>
+                        <a class="dropdown-item active" href="cart.html">Shopping cart</a>
+                    </div>
+                </li>
+            </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dtweb-dropdown" data-toggle="dropdown"
@@ -70,41 +84,17 @@
     </div>
 </nav>
 
-<main role="main">
-    <div class="container p-5">
-        <div class="jumbotron">
-            <h1>Digital Technologies Resources</h1>
-            <p class="lead">Find your topic or course below.</p>
-        </div>
-    </div>
-    <div class="container p-5">
-        <div class="card-columns">
-            <div class="card border-info mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Python programming</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">All levels</h6>
-                    <p class="card-text">Videos, lesson slideshows and resources, projects.</p>
-                    <div class="text-right"><a href="python/" class="card-link">Get started &raquo;</a></div>
-                </div>
-            </div>
-            <div class="card border-info mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">PHP and MySQL</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">All levels</h6>
-                    <p class="card-text">Videos, lesson slideshows and resources, projects.</p>
-                    <div class="text-right"><a href="phpweb/" class="card-link">Get started &raquo;</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</main><!-- /.container -->
+<div class="container py-5">
+    <h1 class="display-3 text-center">"Buying" products</h1>
+</div>
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="js/bootstrap.bundles.min.js"></script>
+<div class="container py-5">
+    <div class="row">
+
+    </div><!--row-->
+</div><!-- /.container -->
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.bundles.min.js"></script>
 </body>
 </html>
