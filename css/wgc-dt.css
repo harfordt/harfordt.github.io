@@ -8,7 +8,7 @@ body {
 }
 
 .navbar-light {
-    background-color: rgba(0, 128, 128, 0.2);
+    background-color: rgba(204,230,230, 1);
 }
 
 .dropdown-item.active, .dropdown-item:hover {
